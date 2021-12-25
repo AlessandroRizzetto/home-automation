@@ -1,12 +1,16 @@
 # home-automation
 IoT project for home automation
 
-# Installation
+#Get Started
+* [Installation](#Installation)
+* [Raspberry Setup](#Raspberry)
+
+## Installation
 
   ```
   chmod +x webcam.sh
   ```
-# Raspberry Setup
+## Raspberry Setup
 To install InfluxDB add Influx repositories to apt:
   ```
  wget -qO- https://repos.influxdata.com/influxdb.key | sudo apt-key add -
