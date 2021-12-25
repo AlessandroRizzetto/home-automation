@@ -1,5 +1,8 @@
 # home-automation
-IoT project for home automation
+This is an IoT project for home automation that include an Arduino and a Raspberry working together.  
+The Arduino Uno collects data from sensors and can start many smart routine.  
+The Raspberry shows the arduino data thanks to InfluxDB and Grafana. It also works as an alarm system,
+when a movement is detected from the motion sensor, it takes a picture and sends it, with an advice, to your telegram bot.
 
 ## Get Started
 * [Installation](#Installation)
@@ -57,12 +60,9 @@ Enable the service and set to run at boot:
   sudo systemctl start grafana-server
   sudo systemctl enable grafana-server.service
   ```
-Grafana is now running on the machine and is accessible from any device on the local network.
-
-Open a browser and go to http://'ipaddress':3000, where the IP address is the address that you used to connect to the Raspberry Pi.
-
-Access the Grafana login page with the default username admin, and the default password admin.
-
+Grafana is now running on the machine and is accessible from any device on the local network.  
+Open a browser and go to http://'ipaddress':3000, where the IP address is the address that you used to connect to the Raspberry Pi.  
+Access the Grafana login page with the default username admin, and the default password admin.  
 Create a dashboard adding the graphs you need, remembering to select Influx as Grafana's data source. 
   
 ## Arduino Setup
