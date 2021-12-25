@@ -4,6 +4,7 @@ IoT project for home automation
 ## Get Started
 * [Installation](#Installation)
 * [Raspberry Setup](#Raspberry-Setup)
+* [Arduino Setup](#Arduino-Setup)
 
 ## Installation
 
@@ -64,7 +65,7 @@ Access the Grafana login page with the default username admin, and the default p
 
 Create a dashboard adding the graphs you need, remembering to select Influx as Grafana's data source. 
   
-  
+## Arduino Setup
   
   
   
