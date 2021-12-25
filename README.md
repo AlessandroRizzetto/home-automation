@@ -3,7 +3,7 @@ IoT project for home automation
 
 #Get Started
 * [Installation](#Installation)
-* [Raspberry Setup](#Raspberry)
+* [Raspberry Setup](#Raspberry Setup)
 
 ## Installation
 
