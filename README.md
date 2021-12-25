@@ -66,7 +66,7 @@ Access the Grafana login page with the default username admin, and the default p
 Create a dashboard adding the graphs you need, remembering to select Influx as Grafana's data source. 
   
 ## Arduino Setup
-  
+  <img src="https://www.andreaaspesi.org/wp-content/uploads/2020/02/sensore_umidita_temperatura_wiring.png" width="500" height="400">
   
   
   
