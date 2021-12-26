@@ -66,7 +66,7 @@ Access the Grafana login page with the default username admin, and the default p
 Create a dashboard adding the graphs you need, remembering to select Influx as Grafana's data source. 
   
 ## Arduino Setup
-  <img src="https://www.andreaaspesi.org/wp-content/uploads/2020/02/sensore_umidita_temperatura_wiring.png" width="500" height="400">
-  
-  
+Connect the DTH11 to Digital PIN2 and the InfraRed sensor to the 3rd PIN.  
+Load the sketch and connect the arduino directly to the raspberry.  
+Obviously you can add any sensor you want,remembering to update the files to make them capable to read the data and show them on Grafana.
   
