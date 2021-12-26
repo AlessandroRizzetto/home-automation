@@ -14,6 +14,11 @@ when a movement is detected from the motion sensor, it takes a picture and sends
   ```
   chmod +x webcam.sh
   ```
+  ```
+  pip install psutil && chmod +x rpi-stats.py
+  ```
+  
+  
 ## Raspberry Setup
 To install InfluxDB add Influx repositories to apt:
   ```
